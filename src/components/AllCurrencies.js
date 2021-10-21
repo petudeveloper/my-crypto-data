@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import logo from '../assets/crypto1.svg';
+import logo from '../assets/crypto-logo.png';
 import Currency from './Currency';
 import { fetchCurrency, statPageSuccess, filterCurrency } from '../redux/currencies/currencies';
 import Filter from './Filter';
@@ -38,22 +38,18 @@ function Currencies() {
     <div className="Home">
       <div className="Header-Container">
         <div className="Header-Picture">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="logo-crypto-currency" />
         </div>
         <div className="Header-Name">
           <h2>CryptoCurrencies</h2>
           <p>
-            {`$${marketTotal()}`}
-            {' '}
-            <br />
-            {' '}
-            Market Capitalization
+            {`$${marketTotal()} MT`}
           </p>
         </div>
       </div>
       <div>
         <div className="Currency-Stats">
-          <h4 className="Currency-Stats1">STATS BY CURRENCY</h4>
+          <h4 className="Currency-h4">STATS BY CURRENCY</h4>
           <Filter handleSelection={handleSelection} />
         </div>
         {currencyStatus}

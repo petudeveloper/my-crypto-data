@@ -10,7 +10,7 @@ const Currency = ({ currency }) => {
   const dispatch = useDispatch();
 
   const {
-    id, symbol, name, marketCap,
+    id, name, marketCap,
   } = currency;
 
   return (
@@ -25,9 +25,11 @@ const Currency = ({ currency }) => {
       >
         <div className="Currency-Container">
           <div className="Currency-Picture">
-            <FiArrowRightCircle className="Arrow" />
-            <div className="Symbol">
-              <p>{symbol.toUpperCase()}</p>
+            <div className="logo-currency-container">
+              <div className="logo-container">
+                <img src={currency.image} alt="Logo" className="currency-logo" />
+              </div>
+              <FiArrowRightCircle className="Arrow" />
             </div>
           </div>
           <div className="Currency-Name">

@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import './_navBar.css';
+@import './_allCurrencies.css';
+@import './_header.css';
+@import './_currency.css';
+@import './_stat.css';
 
 body {
     margin: 0;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
 }
 
 .App {

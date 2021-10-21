@@ -24,13 +24,13 @@ const Heading = ({ home }) => {
     );
   }
   return (
-    <div className="NavBar-Container">
+    <div className="heading-container">
       <p>
         <NavLink to="/">
           <FaAngleLeft />
         </NavLink>
       </p>
-      <p>Top CryptoCurrencies Market Capitalization</p>
+      <p>CryptoCurrency Stats</p>
       <div>
         <i className="fa-icon"><FaMicrophone /></i>
         <i><FaCog /></i>
