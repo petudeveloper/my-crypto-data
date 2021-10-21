@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './_navBar.css';
+
+body {
+    margin: 0;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}

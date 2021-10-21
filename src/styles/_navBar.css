@@ -1,0 +1,11 @@
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #4369b2;
+}
+
+.fa-icon {
+    margin: 5px;
+}
