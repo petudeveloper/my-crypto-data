@@ -6,13 +6,13 @@
 @import './_stat.css';
 
 body {
-    margin: 0;
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 .App {
