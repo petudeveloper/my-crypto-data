@@ -1,6 +1,6 @@
 # My Crypto Data
 
-If you are a fan of cryptocurrencies this web application is for you. This web app displays the total market capital of the top 20 crypto currencies in the world. You can filter the currencies by range or select one tho get more information.
+If you are a fan of cryptocurrencies this web application is for you. This web app displays the total market capitalization of the top 20 cryptocurrencies in the world. You can filter the currencies by range or select one to get more information.
 
 ## Built With
 
@@ -21,7 +21,7 @@ You can see my live demo here:
 
 -You can clone the repo by using this commands on your terminal: 
 > - `git clone https://github.com/petudeveloper/my-crypto-data.git`.
-> - `cd Capstone-project-Conference-page`.
+> - `cd my-crypto-data`.
 
 -You can also download this repo as a ZIP file following this instructions:
 >![screenshot](docs/download-instructions.png)
