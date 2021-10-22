@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import '../styles/App.css';

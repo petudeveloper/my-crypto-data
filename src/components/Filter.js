@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const Filter = ({ handleSelection }) => (
   <select onChange={(e) => handleSelection(e)} className="Filter">
     <option value="all">All</option>

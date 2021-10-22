@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const Stat = ({ currency }) => {
   const {
     rank, low, high, price, totalVolume,
