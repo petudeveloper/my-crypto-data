@@ -1,0 +1,25 @@
+.Stat-Container {
+  margin: 0;
+  padding: 0;
+}
+
+h3,
+h2,
+p {
+  margin: 0;
+}
+
+.stat-item {
+  padding: 45px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-item:nth-child(odd) {
+  background-color: #5d86d1;
+}
+
+.stat-item:nth-child(even) {
+  background-color: #3f62a6;
+}
