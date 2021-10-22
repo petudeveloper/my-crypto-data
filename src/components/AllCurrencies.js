@@ -58,6 +58,11 @@ function Currencies() {
             <Currency key={currency.id} currency={currency} />
           ))}
         </ul>
+        {renderedItems.length === 0 && (
+        <div className="no-currencies-onRange">
+          <p>No Currencies in this range!</p>
+        </div>
+        )}
       </div>
     </div>
   );

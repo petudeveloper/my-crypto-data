@@ -61,3 +61,9 @@
   .Currency:nth-child(8n) {
     background-color: #4369b2;
   }
+
+  .no-currencies-onRange{
+      color: #35548b;
+      padding: 25px;
+      font-size: 1.5rem;
+  }
