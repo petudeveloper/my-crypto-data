@@ -1,6 +1,6 @@
 # My Crypto Data
 
-If you are a fan of cryptocurrencies this web application is for you. This web app displays the total market capitalization of the top 20 cryptocurrencies in the world. You can filter the currencies by range or select one to get more information.
+If you are a fan of cryptocurrencies this mobile web application is for you. This mobile web app displays the total market capitalization of the top 20 cryptocurrencies in the world. You can filter the currencies by range or select one to get more information about it.
 
 ## Built With
 
@@ -14,8 +14,7 @@ If you are a fan of cryptocurrencies this web application is for you. This web a
 
 ## Live Demo
 
-You can see my live demo here:
-[Check it out!(TBA)](URL)
+You can see my live demo [HERE](https://jovial-hermann-d0810a.netlify.app)
 
 ## Getting Started
 
@@ -35,7 +34,7 @@ You can see my live demo here:
 - LinkedIn: [David Alvarez Mazzo](https://www.linkedin.com/in/davidalvarezmazzo/)
 
 ## Acknowledgment
-Original design idea by Nelson Sakwa on Behance.
+The design is inspired by Nelson Sakwa's design on Behance.
 
 ## Show your support
 
