@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 const Filter = ({ handleSelection }) => (
   <select onChange={(e) => handleSelection(e)} className="Filter">
     <option value="all">All</option>
@@ -11,5 +13,9 @@ const Filter = ({ handleSelection }) => (
     <option value="80000000000">8-9 Billion</option>
   </select>
 );
+
+Filter.propTypes = {
+  handleSelection: PropTypes.func.isRequired,
+};
 
 export default Filter;

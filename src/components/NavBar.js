@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import '../styles/App.css';
 import { FaAngleLeft, FaMicrophone, FaCog } from 'react-icons/fa';
+import { PropTypes } from 'prop-types';
 
 const NavBar = () => {
   const home = useSelector((state) => state.currency.home);
@@ -36,6 +37,10 @@ const Heading = ({ home }) => {
       </div>
     </div>
   );
+};
+
+Heading.propTypes = {
+  home: PropTypes.bool.isRequired,
 };
 
 export default NavBar;

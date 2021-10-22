@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 const Stat = ({ currency }) => {
   const {
     rank, low, high, price, totalVolume,
@@ -27,6 +29,10 @@ const Stat = ({ currency }) => {
       </li>
     </ul>
   );
+};
+
+Stat.propTypes = {
+  currency: PropTypes.isRequired,
 };
 
 export default Stat;

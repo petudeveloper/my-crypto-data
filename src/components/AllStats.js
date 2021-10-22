@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Stat from './Stat';
@@ -48,6 +49,10 @@ const Stats = ({ match }) => {
       </div>
     </div>
   );
+};
+
+Stats.propTypes = {
+  match: PropTypes.isRequired,
 };
 
 export default Stats;
